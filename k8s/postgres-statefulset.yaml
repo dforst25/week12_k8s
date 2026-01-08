@@ -14,7 +14,7 @@ spec:
         app: postgres
     spec:
       containers:
-      - name: nginx
+      - name: postgres
         image: postgres:15
         ports:
         - containerPort: 5432
